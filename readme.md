@@ -6,7 +6,7 @@ You gotta build the image yourself for now since the base paks get embedded as l
 
 # What do???
 
-Put your retail Quake 3 Arena `pak0.pk3` in `base/baseq3` and the patches from [https://ioquake3.org/extras/patch-data/](https://ioquake3.org/extras/patch-data/) in `base/baseq3` and `base/missionpack`.
+Put your retail Quake III Arena `pak0.pk3` in `base/baseq3` and the patches from [https://ioquake3.org/extras/patch-data/](https://ioquake3.org/extras/patch-data/) in `base/baseq3` and `base/missionpack`.
 
 The structure should look like this:
 
