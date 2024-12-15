@@ -8,6 +8,10 @@ You gotta build the image yourself for now since the base paks get embedded as l
 
 Put your retail Quake 3 Arena `pak0.pk3` in `base/baseq3` and the patches from [https://ioquake3.org/extras/patch-data/](https://ioquake3.org/extras/patch-data/) in `base/baseq3` and `base/missionpack`.
 
+The structure should look like this:
+
+![alt text](image-1.png)
+
 Put your custom maps and mods in `content`, the compose file binds it to the user level search path so logs and junk will appear there too.
 
 Rename `server.example.cfg` to `server.cfg`, use it for your server configuration.
