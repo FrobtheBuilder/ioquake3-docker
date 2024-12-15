@@ -1,0 +1,5 @@
+content/**/*
+base/baseq3/**/*
+base/missionpack/**/*
+server.cfg
+!.gitkeep

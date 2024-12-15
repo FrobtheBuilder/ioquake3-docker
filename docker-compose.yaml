@@ -1,0 +1,11 @@
+services:
+  quake3:
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    ports:
+      - "27960:27960/udp"
+    volumes:
+      - ./server.cfg:/opt/quake/ioquake3/server.cfg
+      - ./content:/root/.q3a/baseq3
+      - ./server.cfg:/opt/quake/ioquake3/baseq3/server.cfg
